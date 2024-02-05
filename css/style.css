@@ -245,6 +245,18 @@ nav {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.activites-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.activites-card img {
+    width: 100%;
+    height: 400px;
+}
+
 
 
 
