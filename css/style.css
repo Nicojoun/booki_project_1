@@ -74,8 +74,8 @@ nav {
 }
 
 .logo{
-    width: 95.5px;
-    height: 30px;
+    width: 72px;
+    height: 22.5px;
 }
 
 .nav-elements {
@@ -148,10 +148,6 @@ nav {
 .checkbox-elements{
     width:200px;
     opacity: 0%;
-}
-
-.checkbox-elements:hover {
-    /* background-color: #0065FC; */
 }
 
 .disponible {
@@ -338,10 +334,39 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    body {
+        margin: 0;
+    }
+
     /****** Nav ***********/
+
+     nav {
+        display: grid;
+    } 
+
+    .accueil {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    } 
+
     .nav-elements a:hover{
-        border-bottom: solid blue;
+        border-bottom: solid #0065FC;
         border-top: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .filtres{
+        display: flex;
+    }
+    
+    /****** Hebergements And Populaires ***********/
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
 }
