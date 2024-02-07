@@ -340,9 +340,13 @@ footer {
         flex-direction: column;
     }
 
+    /****** Hebergements ***********/
+
     .hebergements {
         width: 100%;
     }
+
+    /****** Populaires ***********/
 
     .populaires {
         width: 100%;
@@ -422,6 +426,8 @@ footer {
         border-bottom: solid #0065FC;  
     }
 
+    /****** Recherche ***********/
+
     .info {
         width: 100%;
     }
@@ -452,7 +458,8 @@ footer {
     .hebergements-and-populaires section {
         border-radius: 0px;
     }
-    
+
+    /****** Populaires ***********/
 
     .populaires {
         background-color: #F2F2F2;
@@ -471,8 +478,32 @@ footer {
         margin-top: 15px;
     }
 
+    /****** Hebergements ***********/
+
     .hebergements {
         background-color: #0065fc00;
+    }
+
+    .hebergements-cards {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /****** Activités ***********/
+
+    .activites-card {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /****** Footer ***********/
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 
 }
