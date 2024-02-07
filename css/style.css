@@ -417,7 +417,20 @@ footer {
     }
 
     .filtres{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .prem-titre {
+        grid-column: 1/3;
+    }
+    
+
+    .filtre-titre {
+        font-size: 16px;
+        /* width: 162.5px; */
+        /* margin-left: 10px; */
     }
 
     /****** Hebergements And Populaires ***********/
