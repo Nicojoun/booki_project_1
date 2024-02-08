@@ -397,7 +397,8 @@ footer {
     /****** Nav ***********/
 
      nav {
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
 
     .accueil {
@@ -408,8 +409,7 @@ footer {
     }
 
     .nav-elements {
-        display: flex;
-        justify-content: space-between;
+        width: 100%;
     }
 
     .nav-elements a {
@@ -431,6 +431,8 @@ footer {
 
     #submit-rechercher {
         width: 50px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     .filtres{
