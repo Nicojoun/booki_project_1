@@ -321,7 +321,6 @@ footer {
 
     /****** Recherche ***********/
     .filtres {
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -384,11 +383,6 @@ footer {
         padding: 0;
     }
 
-    header {
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-
     /****** Nav ***********/
 
      nav {
@@ -404,22 +398,33 @@ footer {
     }
 
     .nav-elements {
-        display: flex;
-        justify-content: center;
+        /* display: flex;
+        justify-content: center; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
     }
 
     .nav-elements a {
         border-top: none;
-        border-bottom: solid #0065fc00;
+        border-bottom: solid transparent;
         padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
     }
 
     .nav-elements a:hover{
         border-top: none;
         border-bottom: solid #0065FC;
+        color: #0065FC
     }
 
     /****** Recherche ***********/
+
+    .recherche {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 
     #submit-rechercher {
         width: 50px;
