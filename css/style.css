@@ -110,10 +110,6 @@ nav {
     margin-bottom: 30px;
 }
 
-.lieu h4 {
-    margin: 0;
-}
-
 #barre-recherche {
     font-size: 17px;
     font-weight: bold;
@@ -432,7 +428,7 @@ footer {
         margin-right: 25px;
     }
 
-    .lieu h4 {
+    .lieu span {
         display: none;
     }
 
