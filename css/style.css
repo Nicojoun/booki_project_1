@@ -199,6 +199,10 @@ nav {
     border-top-right-radius: 15px;
 }
 
+.hebergements-cards .card-content {
+    padding-left: 10px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -441,6 +445,10 @@ footer {
 
     .lieu span {
         display: none;
+    }
+
+    #barre-recherche {
+        flex: 1;
     }
 
     #submit-rechercher {
