@@ -110,6 +110,17 @@ nav {
     margin-bottom: 30px;
 }
 
+.lieu .fa-location-dot {
+    color: black;
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #barre-recherche {
     font-size: 17px;
     font-weight: bold;
@@ -123,8 +134,8 @@ nav {
     font-weight: bold;
     color: white;
     background-color:  #0065FC;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     border: none;
 }
 
@@ -146,12 +157,13 @@ nav {
     border-color: rgba(0, 0, 0, 0.258);
 }
 
-.filtre-titre img {
+.filtre-titre .fa-solid {
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .filtre-titre:hover {
-    background-color: #0065fc32;
+    background-color: #DEEBFF;
 }
 
 .disponible {
