@@ -213,7 +213,7 @@ nav {
 }
 
 .hebergements-cards .card {
-    /* height: 250px; */
+    height: 260px;
 }
 
 .hebergements-cards img {
@@ -225,9 +225,8 @@ nav {
 
 .hebergements-cards .card-content {
     padding-left: 10px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: start; */
+    display: grid;
+    grid-template-rows: 110px 26px;
 }
 
 /****** Populaires ***********/
@@ -306,6 +305,10 @@ nav {
     width: 100%;
     height: 380px;
 }
+
+.card-activites-title {
+    height: 30px;
+} 
 
 .card-activites-title {
     font-size: 16px;
